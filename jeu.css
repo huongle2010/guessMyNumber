@@ -1,0 +1,34 @@
+body{
+    background-color: rosybrown;
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+}
+h2{
+    text-align: center;
+    
+}
+.number{
+    text-align: center;
+}
+#result{
+    padding: 20px;
+
+}
+#tryagain{
+    font-size: 15px;
+}
+.tryagain{
+    text-align: center;
+    padding: 20px;
+}
+#lastResult{
+    text-align : center;
+    color: white;
+    font-size: 50px;
+}
+#notice{
+    color: white;
+    font-size: 20px;
+}

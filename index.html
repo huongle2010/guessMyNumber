@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jeu de nombre</title>
+  <link rel="stylesheet" href="jeu.css">
+
+</head>
+<body>
+    <h1>Guess My Number</h1>
+    <h2>L'ordinateur généré un nombre aléatoire entre 0 et 100.
+        Vous doivez le deviner en 10 essais ou moins  </h2>
+    
+    <div class="number">
+        <input id="guessnumber" type="number">
+        <button id="bouton">Check</button>
+        <div id="result">Nombres déjà proposés:</div>
+        <div id="notice"></div>
+        <p>Nombre de tentatives restantes:  <span id="chance"></span></p>
+    </div>
+    <div id='lastResult'></div>
+    <div class="tryagain"><button id="tryagain">Réjouer</button></div>
+     <script src="jeu.js"></script> 
+</body>
+</html>
